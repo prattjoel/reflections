@@ -1,0 +1,2 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+The hidden files that go along with a git repository are created.  Without initializing the repository, things like making commits will not work. 
