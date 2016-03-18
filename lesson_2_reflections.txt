@@ -1,2 +1,17 @@
 1) What happens when you initialize a repository? Why do you need to do it?
 The hidden files that go along with a git repository are created.  Without initializing the repository, things like making commits will not work. 
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like a go between for the working directory and repository.  It helps commits transition from the working directory to the repository which is helpful because it gives programmers a chance to make adjustements before finalizing a commit.
+
+3)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branchign would be useful if you wanted to create an expereimental version but keep the old one or if you wanted to create an entirely diffeent version for another purpose (like in a different language).  Branches would help with an expereimental version because if it didn't work, you could always return to the old version.  It would help with creatng a new version for a different purpose by allowing each version to stand alone and therfore, be used separately.
+
+4)How do the diagrams help you visualize the branch structure?
+Seeing the flow of commits particularly with the arrows, helps me visulaize the way that commits relate to their parents.
+
+5)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging to branches brings together the master and the new branch.  It allows us to access the commits of the new branch and master through the master.  The diagram shows the path of commits for the new branch now being accessed through the master
+
+6) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It's helpful to autopmatically merge when there are no conflicts to save time.  It's helpful to manually merge when there are conflicts so that you can make sure the conflict is resolved appropriately.
